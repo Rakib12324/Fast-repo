@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Media Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    video, audio, img {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to My Media Website</h1>
+</header>
+
+<section>
+  <h2>Featured Video</h2>
+  <video controls>
+    <source src="media/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Photo Gallery</h2>
+  <img src="media/image1.jpg" alt="Image 1">
+  <img src="media/image2.jpg" alt="Image 2">
+
+  <h2>Listen to Audio</h2>
+  <audio controls>
+    <source src="media/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</section>
+
+</body>
+</html>
